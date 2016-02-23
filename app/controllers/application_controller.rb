@@ -8,4 +8,8 @@ class ApplicationController < ActionController::Base
   def hello1
     render text:"hello1, world!"
   end
+
+  def helloES
+    render text: "\u{A1}Hola, mundo!"
+  end
 end
